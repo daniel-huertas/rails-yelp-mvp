@@ -11,32 +11,32 @@ restaurants_attributes = [
   {
     name:         "Le Petit Cambodge",
     address:      "20 rue Alibert 75010 Paris",
-    phone_number:  142458088,
-    category:     "Chinese"
+    phone_number:  "01 43 54 23 31",
+    category:     "chinese"
   },
   {
     name:         "Grazie",
     address:      "91 Boulevard Beaumarchais 75003 Paris",
-    phone_number:  142781196,
-    category:     "Italian"
+    phone_number:  "01 43 54 23 31",
+    category:     "italian"
   },
   {
     name:         "Le pré catelan",
     address:      "route de Suresnes 75016 Paris",
-    phone_number:  144144114,
-    category:     "French"
+    phone_number:  "01 45 56 24 32",
+    category:     "french"
   },
    {
     name:         "Kagayaki",
     address:      "79 Boulevard Beaumarchais Paris",
-    phone_number:  148876188,
-    category:     "Japanese"
+    phone_number:  "148876188",
+    category:     "japanese"
   },
    {
     name:         "Léon de Bruxelles",
     address:      "120 Rue Rambuteau 75001 Paris",
-    phone_number:  142361850,
-    category:     "Belgian"
+    phone_number:  "142361850",
+    category:     "belgian"
   }
 ]
 Restaurant.create!(restaurants_attributes)
